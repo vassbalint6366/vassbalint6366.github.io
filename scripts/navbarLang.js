@@ -11,12 +11,14 @@ function changeNavbarLanguage() {
         navbarContact.innerHTML = englishContent.navbarContact;
         navbarResume.innerHTML = englishContent.navbarResume;
         navbarLanguage.innerHTML = englishContent.navbarLanguage;
+        console.log("navbar lang: eng");
     } else if (!en) {
         navbarAbout.innerHTML = hungarianContent.navbarAbout;
         navbarHome.innerHTML = hungarianContent.navbarHome;
         navbarContact.innerHTML = hungarianContent.navbarContact;
         navbarResume.innerHTML = hungarianContent.navbarResume;
         navbarLanguage.innerHTML = hungarianContent.navbarLanguage;
+        console.log("navbar lang: hu");
     }
 }
 
