@@ -7,7 +7,7 @@ var englishContent = {
   navbarResume: 'Resume',
   navbarLanguage: 'Language',
   aboutAboutMe: 'About me',
-  aboutAboutMeContent: 'I am a greatly motivated and ambitios individual who, as a recent university graduate, is looking for a full-time job. During my years of education, it become pretty clear to me that the world is progressively more revolved around computer science than it was in the past. I firmly believe that I can put my expertise to use when it comes to developing, programming and exploring creative ideas and I hope it will help the world become even more advanced in computer science.',
+  aboutAboutMeContent: 'I am a greatly motivated and ambitious individual who, as a recent university graduate, is looking for a full-time job. During my years of education, it become pretty clear to me that the world is progressively more revolved around computer science than it was in the past. I firmly believe that I can put my expertise to use when it comes to developing, programming and exploring creative ideas and I hope it will help the world become even more advanced in computer science.',
   aboutEducation: 'Education',
   aboutCS: 'Computer Science',
   aboutUniversity: 'University of Debrecen',
