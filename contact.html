@@ -8,16 +8,39 @@
     <title>BalintVassContact</title>
 </head>
 <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="headerLinks">Home</a></li>
-          <li><a href="about.html" class="headerLinks">About</a></li>
-          <li><a href="contact.html" class="headerLinks">Contact</a></li>
-          <li><a href="resume.html" class="headerLinks">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
+  <header>
+    <nav>
+      <ul>
+
+        <li>
+          <a href="index.html" class="headerLinks" id="navbarHome">Home</a>
+        </li>
+
+        <li>
+            <a href="about.html" class="headerLinks" id="navbarAbout">About</a>
+        </li>
+
+        <li>
+          <a href="contact.html" class="headerLinks" id="navbarContact">Contact</a>
+        </li>
+
+        <li>
+            <a href="#" onclick=resumeOpen() class="headerLinks" id="navbarResume">Resume</a>
+        </li>
+
+        <li>
+          <div class="dropdown">
+            <button class="headerLinks" id="navbarLanguage">Language</button>
+            <div class="dropdown-content">
+              <a href="#" onclick="changeLanguage('en')">English</a>
+              <a href="#" onclick="changeLanguage('hu')">Magyar</a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
     
     <section class="contactSection">
       <div class="content">
@@ -30,6 +53,10 @@
       </div>
     </section>
     
-    
+    <script src="scripts/lang.js"></script>
+    <script src="scripts/contentLang/englishContent.js"></script>
+    <script src="scripts/contentLang/hungarianContent.js"></script>
+    <script src="scripts/resumeOpener.js"></script>
+    <script src="scripts/navbarLang.js"></script>
   </body>
   </html>

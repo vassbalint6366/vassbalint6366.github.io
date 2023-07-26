@@ -8,6 +8,10 @@ body {
     background-size: cover;
   }
   
+  ::-webkit-scrollbar {
+    display: none;
+}
+
   @media (max-width: 1000px) {
     
   }
@@ -23,6 +27,11 @@ body {
     text-decoration: none;
     font-weight: 800;
     font-size: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
   }
   
   .content {
@@ -88,4 +97,28 @@ body {
   p {
     color: #fff;
   }
-  
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  min-width: 60px;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #222;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #222;}

@@ -8,45 +8,101 @@
     <title>BalintVassAbout</title>
 </head>
 <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="headerLinks">Home</a></li>
-          <li><a href="about.html" class="headerLinks">About</a></li>
-          <li><a href="contact.html" class="headerLinks">Contact</a></li>
-          <li><a href="resume.html" class="headerLinks">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
+  <header>
+    <nav>
+      <ul>
+
+        <li>
+          <a href="index.html" class="headerLinks" id="navbarHome">Home</a>
+        </li>
+
+        <li>
+            <a href="about.html" class="headerLinks" id="navbarAbout">About</a>
+        </li>
+
+        <li>
+          <a href="contact.html" class="headerLinks" id="navbarContact">Contact</a>
+        </li>
+
+        <li>
+            <a href="#" onclick=resumeOpen() class="headerLinks" id="navbarResume">Resume</a>
+        </li>
+
+        <li>
+          <div class="dropdown">
+            <button class="headerLinks" id="navbarLanguage">Language</button>
+            <div class="dropdown-content">
+              <a href="#" onclick="changeLanguage('en')">English</a>
+              <a href="#" onclick="changeLanguage('hu')">Magyar</a>
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
     
     <section class="aboutSection">
       <div class="content">
-        <h1>About Me</h1>
-        <p>A greatly motivated student is looking for a full-time job while still in university and after.
-          During my years of education, it become pretty clear to me that the world is progressively more
-          revolved around computer science than it was in the past.
-          I firmly believe that I can put my expertise to use when it comes to developing, programming
-          and exploring creative ideas and I hope it will help the world become even more advanced
-          in computer science.</p>
-        <h1>Education</h1>
+        <h1 id="aboutAboutMe">About Me</h1>
+        <p id="aboutAboutMeContent">I am a greatly motivated and ambitios individual who,
+          as a recent university graduate, is looking for a full-time job.
+          During my years of education, it become pretty clear to me that
+          the world is progressively more revolved around computer science
+          than it was in the past. I firmly believe that I can put my expertise
+          to use when it comes to developing, programming and exploring creative
+          ideas and I hope it will help the world become even more advanced in computer science.</p>
+        <h1 id="aboutEducation">Education</h1>
         <ul>
-          <li><h2>Computer Science</h2></li>
+          <li><h2 id="aboutCS">Computer Science</h2></li>
           <ul>
-            <li>University of Debrecen</li>
+            <li id="aboutUniversity">University of Debrecen</li>
           </ul>
-          <li><h2>Advanced Computer Science Class</h2></li>
+          <li><h2 id="aboutACSC">Advanced Computer Science Class</h2></li>
           <ul>
-            <li>Vasvári Pál High School</li>
+            <li id="aboutHighSchool">Vasvári Pál High School</li>
           </ul>
         </ul>
-        <h1>Skills</h1>
+        <h1 id="aboutSkills">Skills</h1>
         <ul>
-          <li><a>Skill 1</a></li>
-          <li><a>Skill 2</a></li>
+          <li><a>Office 365 (Word, Excel, Access, SharePoint, PowerPoint, Teams)</a></li>
+          <li><a>Visual Studio Code</a></li>
+          <li><a>IntelliJ IDEA</a></li>
+          <li><a>GitHub</a></li>
+          <li><a>XAMPP</a></li>
+          <li><a>Jira</a></li>
+          <li><a>Trello</a></li>
+          <li><a>Blender</a></li>
+          <li><a>C++</a></li>
+          <li><a>JAVA</a></li>
+          <li><a>C# (Unity)</a></li>
+          <li><a>HTML, CSS, JavaScript, PHP</a></li>
+          <li><a>Selenium, Cucumber, Gherkin</a></li>
+          <li><a>SQL</a></li>
+        </ul>
+        <h1 id="aboutCertificates">Certificates</h1>
+        <ul>
+          <li>CERTIPORT Certificate:</li>
+          <ul>
+            <li>IT Specialist – JavaScript <a href="https://www.credly.com/badges/5202e952-4ea2-4035-8fad-e0bf99005ce0/public_url" target="blank" rel="noopener noreferrer">(link)</a></li>
+          </ul>
+        </ul>
+        <ul>
+          <li>NVIDIA DLI Certificates:</li>
+          <ul>
+            <li>Accelerating Data Engineering Pipelines <a href="https://courses.nvidia.com/certificates/8ae59feb2b6948da909a850a72742a09/" target="blank" rel="noopener noreferrer">(link)</a></li>
+            <li>Fundamentals of Accelerated Data Science <a href="https://courses.nvidia.com/certificates/843092d4755f4580badba2ee9c299980/" target="blank" rel="noopener noreferrer">(link)</a></li>
+          </ul>
         </ul>
       </div>
     </section>
     
+    <script src="scripts/lang.js"></script>
+    <script src="scripts/englishContent.js"></script>
+    <script src="scripts/hungarianContent.js"></script>
+    <script src="scripts/resumeOpener.js"></script>
+    <script src="scripts/navbarLang.js"></script>
+    <script src="scripts/aboutLang.js"></script>
 
   </body>
   </html>
