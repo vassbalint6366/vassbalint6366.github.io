@@ -131,7 +131,10 @@ body {
     background-image: none;
   }
   .headerLinks {
-    font-size: 14px;
+    font-size: 13px;
     padding: 10px 1px;
+  }
+  .dropdown-content {
+    right: 0px;
   }
 }
