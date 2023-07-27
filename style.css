@@ -51,13 +51,14 @@ body {
   
   .homeMyName {
     font-size: 56px;
-    padding-bottom: 20px
   }
   
   .homeMyPicture {
     display: inline;
-    max-width: 30%;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
+    padding-bottom: 20px;
   }
   
   nav ul {
@@ -130,6 +131,15 @@ body {
 @media (max-width: 768px) {
   body {
     background-image: none;
+  }
+  .homeMyName {
+    font-size: 40px;
+  }
+  .homeMyPicture {
+    display: inline;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
   }
   .headerLinks {
     font-size: 13px;
