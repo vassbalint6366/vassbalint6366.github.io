@@ -35,14 +35,14 @@ var hungarianContent = {
 };
 
 function changeLanguage(language) {
-  if (language === 'en') {
-    en = true;
+  if (language === 'hu') {
+    en = false;
     changeNavbarLanguage();
     if ( document.URL.includes("about.html") ) {
       changeAboutLanguage();
   }
-  } else if (language === 'hu') {
-    en = false;
+  } else {
+    en = true;
     changeNavbarLanguage();
     if ( document.URL.includes("about.html") ) {
       changeAboutLanguage();
