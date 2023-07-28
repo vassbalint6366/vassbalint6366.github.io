@@ -103,6 +103,10 @@ body {
     color: #fff;
   }
 
+.aboutSkillsInterpersonalContent {
+  padding-bottom: 10px;
+}
+
 .dropdown {
   position: relative;
   display: inline-block;
