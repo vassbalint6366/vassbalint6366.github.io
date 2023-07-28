@@ -7,6 +7,9 @@ function changeAboutLanguage() {
     var aboutACSC = document.getElementById('aboutACSC');
     var aboutHighSchool = document.getElementById('aboutHighSchool');
     var aboutSkills = document.getElementById('aboutSkills');
+    var aboutLanguages = document.getElementById('aboutLanguages');
+    var aboutLanguagesHU = document.getElementById('aboutLanguagesHU');
+    var aboutLanguagesEN = document.getElementById('aboutLanguagesEN');
     var aboutCertificates = document.getElementById('aboutCertificates');
     
 
@@ -19,6 +22,9 @@ function changeAboutLanguage() {
         aboutACSC.innerHTML = englishContent.aboutACSC;
         aboutHighSchool.innerHTML = englishContent.aboutHighSchool;
         aboutSkills.innerHTML = englishContent.aboutSkills;
+        aboutLanguages.innerHTML = englishContent.aboutLanguages;
+        aboutLanguagesHU.innerHTML = englishContent.aboutLanguagesHU;
+        aboutLanguagesEN.innerHTML = englishContent.aboutLanguagesEN;
         aboutCertificates.innerHTML = englishContent.aboutCertificates;
         
     } else if (!en) {
@@ -30,6 +36,9 @@ function changeAboutLanguage() {
         aboutACSC.innerHTML = hungarianContent.aboutACSC;
         aboutHighSchool.innerHTML = hungarianContent.aboutHighSchool;
         aboutSkills.innerHTML = hungarianContent.aboutSkills;
+        aboutLanguages.innerHTML = hungarianContent.aboutLanguages;
+        aboutLanguagesHU.innerHTML = hungarianContent.aboutLanguagesHU;
+        aboutLanguagesEN.innerHTML = hungarianContent.aboutLanguagesEN;
         aboutCertificates.innerHTML = hungarianContent.aboutCertificates;
     }
 }

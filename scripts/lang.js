@@ -14,6 +14,9 @@ var englishContent = {
   aboutACSC: 'Advanced Computer Science Class',
   aboutHighSchool: 'Vasvári Pál High School',
   aboutSkills: 'Skills',
+  aboutLanguages: 'Languages',
+  aboutLanguagesHU: 'Native language: Hungarian',
+  aboutLanguagesEN: 'B2 Complex in English (Origo) - 2019',
   aboutCertificates: 'Certificates'
 };
 
@@ -31,6 +34,9 @@ var hungarianContent = {
   aboutACSC: 'Informatikus',
   aboutHighSchool: 'Vasvári Pár Gimnázium',
   aboutSkills: 'Kézségek',
+  aboutLanguages: 'Nyelvek',
+  aboutLanguagesHU: 'Anyanyelv: magyar',
+  aboutLanguagesEN: 'B2 komplex angol nyelvvizsga (Origo) - 2019',
   aboutCertificates: 'Tanúsítványok'
 };
 
