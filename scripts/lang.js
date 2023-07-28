@@ -67,7 +67,7 @@ var hungarianContent = {
   aboutSkillsTeamworkContent: ' Jól működöm együtt másokkal a közös célok elérése érdekében. Kézségem hatékony kommunikációra, ötletek megosztására és kollégáim támogatására biztosítja a harmonikus és produktív csapatdinamikát.',
   aboutSkillsTimeManagment: 'Időbeosztás:',
   aboutSkillsTimeManagmentContent: ' Kiváló időmenedzsment kézséggel rendelkezem, hatékonyan prioritást állítok a feladatok elvégzéséhez. Jól szervezett munkafolyamatot tartok fenn, hogy effektív teljesítsem a feladatokat anélkül, hogy figyelmen kívül hagynám a részleteket.',
-  aboutSkillsConflict: 'Konflitkuskezelés:',
+  aboutSkillsConflict: 'Konfliktuskezelés:',
   aboutSkillsConflictContent: ' Diplomatikusan és ügyesen kezelem a konfliktusokat, olyan megoldásokat keresve, amelyek kielégítik az összes érintett felet. Tárgyalóképességem és mások eltérő nézőpontjainak megértése hozzájárul a konstruktív nézeteltérések feloldásához.',
 
   aboutLanguages: 'Nyelvek',
